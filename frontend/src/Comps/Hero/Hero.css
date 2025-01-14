@@ -1,0 +1,101 @@
+.hero {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8rem;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgb(255, 216, 216), transparent), url('../Images/gradright.png');
+    background-repeat: no-repeat;
+}
+
+.hero-left
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 2rem;
+    line-height: 2;
+    margin-left: 3rem;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-left h2
+{
+    color: rgb(68, 68, 68);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-left: 3vw;
+
+}
+
+.hero-left p
+{
+    color: rgb(68, 68, 68);
+    font-size: 5rem;
+    font-weight: 600;
+    margin-left: 5vw;
+    margin-top: -1rem;
+}
+
+.hero-latest-btn
+{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    width: 300px;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    background: rgb(221, 1, 1);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 5vw;
+
+}
+
+.hero-latest-btn:hover
+{
+    background: rgb(255, 255, 255);
+    color: rgb(221, 1, 1);
+    border: 1px solid rgb(221, 1, 1);
+    transition: all 0.3s ease;
+}
+
+.hero-latest-btn img
+{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+}
+
+.hero-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-mint-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}

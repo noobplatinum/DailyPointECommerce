@@ -1,0 +1,14 @@
+.breadcrumb img
+{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.breadcrumb
+{
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+}

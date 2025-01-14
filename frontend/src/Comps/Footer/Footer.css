@@ -1,0 +1,89 @@
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer-logo
+{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.footer-logo img
+{
+    margin-top: 5vh;
+    width: 20rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.footer-logo p
+{
+    color: darkslategrey;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.footer-links
+{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    color: darkslategrey;
+    font-size: 1.3rem;
+}
+
+.footer-links li
+{
+    cursor: pointer;
+}
+
+.footer-social-icon
+{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.footer-icons-container {
+    padding: 0.5rem;
+    background: rgb(253, 253, 253);
+    border: 0.1rem solid greenyellow;
+    width: 5rem;  
+    height: 5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons-container img {
+    width: 4rem;   
+    height: 4rem;
+    object-fit: contain;
+    filter: invert(88%) sepia(42%) saturate(1000%) hue-rotate(67deg) brightness(95%) contrast(95%);
+}
+
+.footer-copyright
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    color: darkslategrey;
+    font-size: 1.3rem;
+}
+
+.footer-copyright hr
+{
+    width: 80%;
+    border: none;
+    border-radius: 0.7rem;
+    height: 3px;
+    background: lightgray;
+}

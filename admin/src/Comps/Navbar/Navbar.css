@@ -1,0 +1,40 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    box-shadow: 0 .0625rem .1875rem -0.125rem #000;
+    background: rgb(247, 247, 247);
+    margin-bottom: 1rem;
+}
+
+.nav-profile
+{
+    width: 10rem;
+    margin-left: 2vw;
+}
+
+.nav-logo
+{
+    width: 8rem;
+    margin-right: 2vw;
+}
+
+@media(max-width: 50rem)
+{
+    .navbar
+    {
+        padding: 1rem 2rem;
+    }
+
+    .nav-profile
+    {
+        width: 8rem;
+    }
+
+    .nav-logo
+    {
+        width: 6rem;
+    }
+}

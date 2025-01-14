@@ -1,0 +1,48 @@
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.8rem;
+    gap: 1.25rem;
+    width: 100%;
+    max-width: 15rem;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    border-radius: .375rem;
+}
+
+.sidebar img
+{
+    width: 3.5rem;
+    height: auto;
+}
+
+.sidebar-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    padding: .3125rem .625rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    gap: 1.25rem;
+    background: #f6f6f6;
+}
+
+@media (max-width : 50rem)
+{
+    .sidebar{
+        padding: 1.875rem 0rem;
+        flex-direction: row;
+        width: 100%;
+        max-width: none;
+        height: auto;
+        justify-content: center;
+    }
+
+    .sidebar-item
+    {
+        margin: 0;
+    }
+}
